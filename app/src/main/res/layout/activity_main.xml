@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jhonlopera.practica1_p2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray"
+        android:gravity="center"
+        android:text="@string/caluladora"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/black"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lightgray"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/whitesmoke"
+                android:gravity="center"
+                android:text="Banda de resistencia"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="@color/black"></LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbanda1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Banda 1"
+                    android:checked="true"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbanda2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="Banda 2"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rbanda3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Banda 3"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/b1b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/b2b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/brown" />
+
+            <Button
+                android:id="@+id/b3b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/red" />
+
+            <Button
+                android:id="@+id/b4b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/orange" />
+
+            <Button
+                android:id="@+id/b5b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/yellow" />
+
+            <Button
+                android:id="@+id/b6b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/green" />
+
+            <Button
+                android:id="@+id/b7b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/blue" />
+
+            <Button
+                android:id="@+id/b8b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/purple" />
+
+            <Button
+                android:id="@+id/b9b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/gray" />
+
+            <Button
+                android:id="@+id/b10b1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/whitesmoke" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2sp"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/whitesmoke"
+                android:gravity="center"
+                android:text="Banda de Tolerancia"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:background="@color/black">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/b1bt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/maroon" />
+            <Button
+                android:id="@+id/b2bt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/red" />
+
+            <Button
+                android:id="@+id/b3bt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/gold" />
+
+            <Button
+                android:id="@+id/b4bt"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="3sp"
+                android:background="@color/silver" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:layout_marginTop="5sp"
+            android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:layout_marginTop="5sp"
+                android:background="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7sp"
+                android:background="@color/gray"
+                android:text="@string/calcular"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/bcalcular"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:gravity="right"
+                android:id="@+id/colores"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Resistencia"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="5sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:layout_marginTop="10sp"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:id="@+id/Resistencia"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

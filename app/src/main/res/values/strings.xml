@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practica1-P4</string>
+    <string name="caluladora">Calculadora de resistencias</string>
+    <string name="banda">banda</string>
+    <string name="banda1">Primera banda</string>
+    <string name="banda2">Segunda banda</string>
+    <string name="banda3">Tercera Banda</string>
+    <string name="banda4">Cuarta banda</string>
+    <string name="calcular">Calcular</string>
+    <string name="Resistencia">El valor de su resistencia es:</string>
+</resources>
